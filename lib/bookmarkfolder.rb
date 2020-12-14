@@ -14,7 +14,7 @@ class BookmarkFolder
 
   def all
     # @bookmark_array
-    con = PG.connect :dbname => 'bookmark_manager', :user => 'ianfleming'
+    con = PG.connect(dbname: 'bookmark_manager')
 
     rs = con.exec "SELECT * FROM bookmarks"
 
