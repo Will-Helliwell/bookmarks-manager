@@ -1,3 +1,5 @@
+require 'pg'
+
 class BookmarkFolder
 
 
@@ -11,6 +13,13 @@ class BookmarkFolder
   end
 
   def all
-    @bookmark_array
+    # @bookmark_array
+    con = PG.connect :dbname => 'bookmark_manager', :user => 'ianfleming'
+
+    rs = con.exec "SELECT * FROM bookmarks"
+
+    rs.map do |row|
+      row['url']
+    end
   end
 end
