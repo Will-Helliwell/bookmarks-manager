@@ -1,22 +1,47 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/bookmarkfolder_spec.rb": {
+      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/bookmark_spec.rb": {
         "lines": [
           1,
-          null,
-          null,
           null,
           1,
           2,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/olivernorman/Makers/Projects/bookmark_manager/lib/bookmark.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/bookmarkfolder_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
           1,
           null,
           null
         ]
       },
-      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/lib/bookmarkfolder.rb": {
+      "/Users/olivernorman/Makers/Projects/bookmark_manager/lib/bookmarkfolder.rb": {
         "lines": [
           1,
           null,
@@ -27,7 +52,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           1,
@@ -38,7 +63,7 @@
           null
         ]
       },
-      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/features/bookmark_route_spec.rb": {
+      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/features/bookmark_route_spec.rb": {
         "lines": [
           1,
           1,
@@ -48,7 +73,7 @@
           null
         ]
       },
-      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/features/index_spec.rb": {
+      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/features/index_spec.rb": {
         "lines": [
           null,
           null,
@@ -59,6 +84,6 @@
         ]
       }
     },
-    "timestamp": 1607958085
+    "timestamp": 1607959242
   }
 }
