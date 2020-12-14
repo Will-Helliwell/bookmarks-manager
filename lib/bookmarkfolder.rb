@@ -13,6 +13,4 @@ class BookmarkFolder
   def all
     @bookmark_array
   end
-
-
 end
