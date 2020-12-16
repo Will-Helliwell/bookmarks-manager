@@ -15,4 +15,15 @@ describe BookmarkFolder do
       expect(bookmarks).to include "http://www.google.com"
     end
   end
+
+  describe '#add_bookmark' do
+    it 'adds a bookmark to the database' do
+      folder = BookmarkFolder.new
+      folder.add_bookmark("Iansbigbrain.net")
+      bookmarks = folder.all
+
+      expect(bookmarks).to include "Iansbigbrain.net"
+      
+    end
+  end
 end

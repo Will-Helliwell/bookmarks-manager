@@ -5,6 +5,10 @@ As a user
 So that I can remember what I've bookmarked
 I would like to see a list of my bookmarks
 
+As a user
+So that I can update my list of bookmarks
+I would like to add new bookmarks to my list immediately!
+
 # Domain Model:
 
 ![Domain Model](https://i.imgur.com/xGvsORx.png)
@@ -19,6 +23,6 @@ I would like to see a list of my bookmarks
 
 # Test Database
 
-1. set up a new database called bookmarks_manager_test
+1. set up a new database called bookmark_manager_test
 2. set up a new table within this database and give it the exact same name as your original table
 3. Enter in all of the same URL links found in your original table
