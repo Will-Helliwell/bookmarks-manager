@@ -1,32 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/bookmark_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          2,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/olivernorman/Makers/Projects/bookmark_manager/lib/bookmark.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/bookmarkfolder_spec.rb": {
+      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/bookmarkfolder_spec.rb": {
         "lines": [
           1,
           null,
@@ -44,9 +19,12 @@
           null
         ]
       },
-      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/features/bookmark_route_spec.rb": {
+      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/features/bookmark_route_spec.rb": {
         "lines": [
           1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -54,7 +32,7 @@
           null
         ]
       },
-      "/Users/olivernorman/Makers/Projects/bookmark_manager/spec/features/index_spec.rb": {
+      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/features/index_spec.rb": {
         "lines": [
           null,
           null,
@@ -65,6 +43,6 @@
         ]
       }
     },
-    "timestamp": 1607968193
+    "timestamp": 1608129800
   }
 }
