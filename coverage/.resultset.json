@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/whelliwell1/Dropbox/projects/makers/week_4/bookmarks-manager/spec/bookmarkfolder_spec.rb": {
+      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/bookmarkfolder_spec.rb": {
         "lines": [
           1,
           null,
@@ -34,7 +34,7 @@
           null
         ]
       },
-      "/Users/whelliwell1/Dropbox/projects/makers/week_4/bookmarks-manager/spec/features/add_bookmark_spec.rb": {
+      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/features/add_bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -54,7 +54,7 @@
           null
         ]
       },
-      "/Users/whelliwell1/Dropbox/projects/makers/week_4/bookmarks-manager/spec/features/bookmark_route_spec.rb": {
+      "/Users/ianfleming/Documents/makers-week-4/afternoon-challenge/bookmarks-manager/spec/features/bookmark_route_spec.rb": {
         "lines": [
           1,
           1,
@@ -72,6 +72,6 @@
         ]
       }
     },
-    "timestamp": 1608140482
+    "timestamp": 1608142211
   }
 }

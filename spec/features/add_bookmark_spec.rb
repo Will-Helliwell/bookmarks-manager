@@ -9,7 +9,7 @@ feature "Add bookmark" do
     visit('/')
     fill_in("url", with: "www.ian.biz")
     click_button("add bookmark")
-    click_button("view bookmarks")
+    click_link("Please click to view bookmarks my friend!")
     expect(page).to have_content("www.ian.biz")
   end
 
