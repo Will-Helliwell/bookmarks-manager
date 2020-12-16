@@ -3,7 +3,11 @@ require 'pg'
 class BookmarkFolder
   def all
     # @bookmark_array
-    con = PG.connect(dbname: 'bookmark_manager')
+    if ENV['RACK_ENV'] == 'test'
+      con = PG.connect(dbname: 'bookmarks_manager_test')
+    else
+      con = PG.connect(dbname: 'bookmark_manager')
+    end
 
     rs = con.exec "SELECT * FROM bookmarks"
 

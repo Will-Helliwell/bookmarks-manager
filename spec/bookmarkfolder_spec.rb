@@ -1,6 +1,10 @@
 require 'bookmarkfolder'
 
   describe BookmarkFolder do
+    before(:each) do
+      empty
+      add_base_bookmarks
+    end
     describe '#all' do
       it 'returns a list of bookmarks' do
         folder = BookmarkFolder.new
