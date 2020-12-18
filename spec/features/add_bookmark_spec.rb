@@ -1,10 +1,5 @@
 feature "Add bookmark" do
 
-  before(:each) do
-    empty
-    add_base_bookmarks
-  end
-
   scenario "it adds a bookmark to the database" do
     visit('/')
     fill_in("url", with: "www.ian.biz")

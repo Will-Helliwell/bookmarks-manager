@@ -2,11 +2,6 @@ require 'Bookmark'
 
 describe Bookmark do
 
-  before(:each) do
-    empty
-    add_base_bookmarks
-  end
-
   let(:bookmark) {Bookmark.new("21", "www.com", "my website")}
 
   it "takes 3 arguments on initialization" do
