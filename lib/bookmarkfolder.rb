@@ -1,7 +1,7 @@
 require 'pg'
 
 class BookmarkFolder
-  def all
+  def self.all
     begin
 
       if ENV['RACK_ENV'] == 'test'
@@ -28,7 +28,7 @@ class BookmarkFolder
     end
   end
 
-  def add_bookmark(web_address, name)
+  def self.add_bookmark(web_address, name)
     begin
       if ENV['RACK_ENV'] == 'test'
         con = PG.connect(dbname: 'bookmark_manager_test')

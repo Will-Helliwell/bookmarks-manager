@@ -11,13 +11,12 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
-    @folder = BookmarkFolder.new.all
+    @folder = BookmarkFolder.all
     erb :bookmarks
   end
 
   post '/add_bookmark' do
-    @folder = BookmarkFolder.new
-    @folder.add_bookmark(params[:url], params[:name])
+    BookmarkFolder.add_bookmark(params[:url], params[:name])
     redirect '/'
   end
 

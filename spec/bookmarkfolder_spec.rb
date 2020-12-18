@@ -5,24 +5,19 @@ describe BookmarkFolder do
     empty
     add_base_bookmarks
   end
-  describe '#all' do
+  describe 'self.all' do
     it 'returns a list of bookmark names' do
-      folder = BookmarkFolder.new
-      bookmarks = folder.all
-
-      expect(bookmarks).to include "makers"
-      expect(bookmarks).to include "evil"
-      expect(bookmarks).to include "google"
+      expect(BookmarkFolder.all).to include "makers"
+      expect(BookmarkFolder.all).to include "evil"
+      expect(BookmarkFolder.all).to include "google"
     end
   end
 
-  describe '#add_bookmark' do
+  describe 'self.add_bookmark' do
     it 'adds a bookmark to the database, taking two arguments' do
-      folder = BookmarkFolder.new
-      folder.add_bookmark("Iansbigbrain.net", "Ians brain website")
-      bookmarks = folder.all
+      BookmarkFolder.add_bookmark("Iansbigbrain.net", "Ians brain website")
 
-      expect(bookmarks).to include "Ians brain website"
+      expect(BookmarkFolder.all).to include "Ians brain website"
 
     end
   end
