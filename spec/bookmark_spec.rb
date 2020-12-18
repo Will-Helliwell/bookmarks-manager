@@ -34,10 +34,11 @@ describe Bookmark do
   end
 
   describe 'self.add_bookmark' do
-    it 'adds a bookmark to the database, taking two arguments' do
+    it 'adds a bookmark to the database, taking two arguments for url and name' do
       Bookmark.add_bookmark("Iansbigbrain.net", "Ians brain website")
 
       expect(Bookmark.all.last.name).to eq "Ians brain website"
+      expect(Bookmark.all.last.url).to eq "Iansbigbrain.net"
 
     end
   end

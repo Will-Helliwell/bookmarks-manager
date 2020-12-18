@@ -1,1 +1,4 @@
-<%= @folder %>
+<% @folder.each do |bookmark| %>
+  <a href=<%= bookmark.url %> target="_blank"><%= bookmark.name %>
+  </a>
+<% end %>

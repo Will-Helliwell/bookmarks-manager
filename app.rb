@@ -9,9 +9,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
-    @folder = Bookmark.all.map{ |bookmark|
-      bookmark.name
-    }
+    @folder = Bookmark.all
     erb :bookmarks
   end
 
