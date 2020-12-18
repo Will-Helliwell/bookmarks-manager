@@ -1,6 +1,15 @@
 require 'pg'
 
 class Bookmark
+
+  attr_reader :id, :url, :name
+
+  def initialize(id, url, name)
+    @id = id
+    @url = url
+    @name = name
+  end
+
   def self.all
     begin
 
@@ -13,7 +22,8 @@ class Bookmark
       rs = con.exec "SELECT * FROM bookmarks"
 
       rs.map do |row|
-        row['name']
+        Bookmark.new(row['id'], row['url'], row['name'])
+        # row['name']
       end
 
       rescue PG::Error => e
