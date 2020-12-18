@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/whelliwell1/Dropbox/projects/makers/week_4/bookmarks-manager/spec/bookmarkfolder_spec.rb": {
+      "/Users/whelliwell1/Dropbox/projects/makers/week_4/bookmarks-manager/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -75,6 +75,6 @@
         ]
       }
     },
-    "timestamp": 1608288848
+    "timestamp": 1608289251
   }
 }

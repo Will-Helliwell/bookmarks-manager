@@ -1,22 +1,20 @@
 require 'sinatra/base'
-require './lib/bookmarkfolder'
+require './lib/Bookmark'
 
 class BookmarkManager < Sinatra::Base
 
   get '/' do
     'Howdy'
     erb :index
-    # fill text box + button to add bookmark
-    # button to view bookmarks
   end
 
   get '/bookmarks' do
-    @folder = BookmarkFolder.all
+    @folder = Bookmark.all
     erb :bookmarks
   end
 
   post '/add_bookmark' do
-    BookmarkFolder.add_bookmark(params[:url], params[:name])
+    Bookmark.add_bookmark(params[:url], params[:name])
     redirect '/'
   end
 

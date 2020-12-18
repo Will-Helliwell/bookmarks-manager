@@ -1,6 +1,6 @@
 require 'pg'
 
-class BookmarkFolder
+class Bookmark
   def self.all
     begin
 
